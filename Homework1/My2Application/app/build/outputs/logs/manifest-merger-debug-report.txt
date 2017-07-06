@@ -1,0 +1,102 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lance\.android\build-cache\d5b3dfbf3a0cdfa96c5522091d729649b4d730e2\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\lance\.android\build-cache\f66950eb0d3e01f536a8240b461c8e7bdf8d2d1b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lance\.android\build-cache\79140f7472f9e41312c9d0dc395e8a999e04070f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lance\.android\build-cache\e8f912adfcdad20e4eacb9e5877bcbc22eb83839\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lance\.android\build-cache\5bb0ff40530e5c7514b99032bfda6884390d3ca7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lance\.android\build-cache\d1b308a14fc18a66857e76add1fab0fcdd505cea\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lance\.android\build-cache\3084dc6616800f8a270d109d29e8bd81812aa396\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lance\.android\build-cache\b91ab409f31b55ca4b30dfad0b960b96ca0b2995\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lance\.android\build-cache\e486ee82b37d309bcfdc88c42e7a89772a1a26a3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lance\.android\build-cache\801b5d787be8098ae279a327ea98fb43b7949ba1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lance\.android\build-cache\944a07d823e76c015be35dfaa2f9317eb58c90b5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lance\.android\build-cache\b315b4debe32335ce6e828d08c16024bdd31ab67\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lance\.android\build-cache\b41c33041b97a61d590d3c50b432d37b65d4224b\output\AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.lance.my2application.MainActivity
+ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.lance.my2application.Description
+ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:19:9-58
+	android:name
+		ADDED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml:19:19-46
+uses-sdk
+INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lance\.android\build-cache\d5b3dfbf3a0cdfa96c5522091d729649b4d730e2\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\lance\.android\build-cache\f66950eb0d3e01f536a8240b461c8e7bdf8d2d1b\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lance\.android\build-cache\79140f7472f9e41312c9d0dc395e8a999e04070f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lance\.android\build-cache\e8f912adfcdad20e4eacb9e5877bcbc22eb83839\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lance\.android\build-cache\5bb0ff40530e5c7514b99032bfda6884390d3ca7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lance\.android\build-cache\d1b308a14fc18a66857e76add1fab0fcdd505cea\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lance\.android\build-cache\3084dc6616800f8a270d109d29e8bd81812aa396\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lance\.android\build-cache\b91ab409f31b55ca4b30dfad0b960b96ca0b2995\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lance\.android\build-cache\e486ee82b37d309bcfdc88c42e7a89772a1a26a3\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lance\.android\build-cache\801b5d787be8098ae279a327ea98fb43b7949ba1\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lance\.android\build-cache\4096a64fcb158e028a92fcbe23d270fbf2e97622\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lance\.android\build-cache\944a07d823e76c015be35dfaa2f9317eb58c90b5\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lance\.android\build-cache\b315b4debe32335ce6e828d08c16024bdd31ab67\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lance\.android\build-cache\b41c33041b97a61d590d3c50b432d37b65d4224b\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lance\.android\build-cache\f66950eb0d3e01f536a8240b461c8e7bdf8d2d1b\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lance\Desktop\repositories\samples\09_LayoutsAndWidgets\My2Application\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\lance\.android\build-cache\f66950eb0d3e01f536a8240b461c8e7bdf8d2d1b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lance\.android\build-cache\79140f7472f9e41312c9d0dc395e8a999e04070f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lance\.android\build-cache\e8f912adfcdad20e4eacb9e5877bcbc22eb83839\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lance\.android\build-cache\5bb0ff40530e5c7514b99032bfda6884390d3ca7\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lance\.android\build-cache\d1b308a14fc18a66857e76add1fab0fcdd505cea\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lance\.android\build-cache\3084dc6616800f8a270d109d29e8bd81812aa396\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lance\.android\build-cache\b91ab409f31b55ca4b30dfad0b960b96ca0b2995\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lance\.android\build-cache\e486ee82b37d309bcfdc88c42e7a89772a1a26a3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lance\.android\build-cache\801b5d787be8098ae279a327ea98fb43b7949ba1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lance\.android\build-cache\4096a64fcb158e028a92fcbe23d270fbf2e97622\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lance\.android\build-cache\944a07d823e76c015be35dfaa2f9317eb58c90b5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lance\.android\build-cache\b315b4debe32335ce6e828d08c16024bdd31ab67\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lance\.android\build-cache\b41c33041b97a61d590d3c50b432d37b65d4224b\output\AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lance\.android\build-cache\f66950eb0d3e01f536a8240b461c8e7bdf8d2d1b\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lance\.android\build-cache\f66950eb0d3e01f536a8240b461c8e7bdf8d2d1b\output\AndroidManifest.xml:26:9-47

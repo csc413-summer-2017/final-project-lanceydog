@@ -1,8 +1,3 @@
 <resources>
-    <string name="app_name">Welcome!</string>
-    <string name="title1">Self-Driving Car Technology Foiled By Kangaroos</string>
-    <string name="title2">Grandson Takes Grandma To Prom After Finding Out She’s Terminally Ill</string>
-    <string name="title3">Badass 10-Year-Old Pries Open Gator’s Jaws To Free Her Leg</string>
-    <string name="title4">Finalists chosen for chance to start colony on Mars, die there</string>
-
+    <string name="app_name">BartApp</string>
 </resources>

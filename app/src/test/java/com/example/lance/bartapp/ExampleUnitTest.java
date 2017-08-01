@@ -1,4 +1,4 @@
-package com.example.lance.my2application;
+package com.example.lance.bartapp;
 
 import org.junit.Test;
 

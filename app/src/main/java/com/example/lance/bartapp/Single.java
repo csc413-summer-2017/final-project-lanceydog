@@ -1,4 +1,4 @@
-package com.example.lance.my2application;
+package com.example.lance.bartapp;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.Fragment;

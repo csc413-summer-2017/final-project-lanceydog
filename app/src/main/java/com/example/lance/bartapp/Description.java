@@ -1,4 +1,4 @@
-package com.example.lance.my2application;
+package com.example.lance.bartapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lance.my2application.Description"
+    tools:context="com.example.lance.bartapp.Description"
     android:orientation="vertical"
     >
 
@@ -14,7 +14,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
-        android:src="@drawable/kangaroo" />
+       />// android:src="@drawable/kangaroo" />
 
     <TextView
         android:layout_height="wrap_content"

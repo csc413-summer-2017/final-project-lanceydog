@@ -1,5 +1,6 @@
-package com.example.lance.my2application;
+package com.example.lance.bartapp;
 
+import java.util.ArrayList;
 import java.util.UUID;
 
 /**
@@ -9,16 +10,19 @@ import java.util.UUID;
 public class Stories {
     private UUID mID;
     private String name;
-    private int text_id;
+    //private int text_id;
     private String text_desc;
     private String text_inner;
+    private ArrayList<Stories> allItems;
 
-    public Stories(String name,int text_id,String desc,String inner){
+
+    public Stories(String name, String desc, String inner){
         mID = UUID.randomUUID();
         this.setName(name);
-        this.setText_id(text_id);
+        //this.setText_id(text_id);
         this.setDesc(desc);
         this.setInner(inner);
+        this.allItems = allItems;
 
 
 
@@ -46,11 +50,8 @@ public class Stories {
 
     public String getDesc(){return text_desc;}
 
-    public int getText_id() {
-        return text_id;
-    }
 
-    public void setText_id(int text_id) {
-        this.text_id = text_id;
-    }
+
+
+
 }

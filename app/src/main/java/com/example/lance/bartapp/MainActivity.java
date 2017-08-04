@@ -29,6 +29,8 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import static android.R.attr.value;
+
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener, AdapterView.OnItemSelectedListener {
     AutoCompleteTextView textView=null;
     private ArrayAdapter<String> adapter;
@@ -37,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String[] Text_description = {"“We’ve noticed with the kangaroo being in mid-flight ... when it’s in the air it actually looks like it’s further away, then it lands and it looks closer”", "“I wanted to bring my grandmother to prom because I wanted to do something special for her”" , "“To get an animal with the strongest bite on the planet to let go of you is a miracle”" , "“I am very divided by it, but the way I see it, I have a responsibility to more people“"};
     String[] Text_inner = {"Volvo has confessed that the springy marsupials are throwing off the “Large Animal Detection” systems being developed for self-driving cars, the Australian Broadcasting Corp. reports. Those systems are meant to make sure the cars avoid animals along the road, such as deer or cattle.", "Earlier this year, Jarman was diagnosed with pancreatic cancer and doctors said she may only have a few more months to live, according to her daughter-in-law Pam Virgil. In the meantime, her grandson has set out to make the days ahead as special as possible for his grandma, who calls him “my boy.” Taking her to prom seemed like a no brainer.", "A 10-year-old girl managed to free herself from the jaws of a nearly 9-foot-long alligator over the weekend by prying open its mouth with her bare hands!", "Mars One, a group that plans to send humans on a one-way trip to Mars, has announced its final 100 candidates. They have been selected from 200,000 applicants and will go on to further testing later this year, which they expect to include team-building exercises and later, isolation."};
     String [] products={"Daily City","Walnut Creek","Concord","Pleasant Hill","MacArthur"};
-
+    String[][] arrays = new String[][]{Text_names,Text_description,Text_inner};
 
    Toolbar toolbar;
     ArrayList<SectionDataModel> sample;
@@ -59,11 +61,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         textView.setOnItemClickListener(this);
         sample = new ArrayList<SectionDataModel>();
         setSupportActionBar(toolbar);
-        createDummyData();
+        for(int b = 1; b<4; b++){
+            createDummyData(b);
+        }
         recyclerView = (RecyclerView)findViewById(R.id.recyclerview);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
+
 
          recycleAdapt = new RecycleAdapt(this, sample);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
@@ -73,8 +78,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void onItemSelected(AdapterView<?> arg0, View arg1, int position,
                                long arg3) {
-        // TODO Auto-generated method stub
-        //Log.d("AutocompleteContacts", "onItemSelected() position " + position);
+
+
     }
 
     @Override
@@ -95,18 +100,43 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
 
-    public void createDummyData() {
-        for (int i = 1; i <= 6; i++) {
+    public void createDummyData(int b) {
+        for (int i = 1; i <= 1; i++) {
 
             SectionDataModel dm = new SectionDataModel();
 
             //dm.setHeaderTitle("Section " + i);
             int count = 0;
-
+            int layline = b;
             ArrayList<Stories> singleItem = new ArrayList<Stories>();
-            for (String Name : Text_names ) {
-                singleItem.add(new Stories(Name,Text_description[count],Text_inner[count]));
-                count++;
+            switch (layline){
+                case 1:
+                    for (String Name : Text_names) {
+                        singleItem.add(new Stories(Text_description[count], Name, Text_inner[count]));
+                        count++;
+
+                    }
+                    break;
+                case 2:
+                    for (String Name : Text_names) {
+                        singleItem.add(new Stories(Name, Text_description[count], Text_inner[count]));
+                        count++;
+
+                    }
+                    break;
+
+                case 3:
+                    for (String Name : Text_names) {
+                        singleItem.add(new Stories(Text_inner[count], Text_description[count],Name));
+                        count++;
+
+                    }
+                    break;
+
+
+
+                default: break;
+
             }
 
             dm.setAllItemsInSection(singleItem);

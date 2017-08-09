@@ -35,6 +35,8 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
     public void onBindViewHolder(SingleItemRowHolder holder, int i) {
         Stories singleItem = itemlist.get(i);
         holder.Text_Name.setText(singleItem.getName());
+        holder.Text_Desc.setText(singleItem.getDesc());
+
 
     }
 
@@ -46,6 +48,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
     public static class SingleItemRowHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         TextView Text_Name;
+        TextView Text_Desc;
         ArrayList<Stories> contacts = new ArrayList<Stories>();
         Context Story;
 
@@ -54,6 +57,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
         public SingleItemRowHolder(View view,Context story,ArrayList<Stories>arrayList) {
             super(view);
             this.Text_Name = (TextView) view.findViewById(R.id.name);
+            this.Text_Desc = (TextView) view.findViewById(R.id.desc);
             this.Story = story;
             this.contacts = arrayList;
             view.setOnClickListener(this);

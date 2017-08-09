@@ -34,5 +34,10 @@ public class SectionDataModel {
         this.allItems = allItemsInSection;
     }
 
+    public void delete(ArrayList<Stories> allItems){
+        this.allItems.clear();
+
+    }
+
 
 }

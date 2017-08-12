@@ -4,6 +4,8 @@ All deadlines are due by the class time
 
 Detailed Description (Add pictures/videos by Demo day) //todo
 
+https://youtu.be/xE86JJPTd10
+
 ##Due 08/25-27:
 Prepare This Readme. 
 
@@ -17,10 +19,12 @@ Prepare This Readme.
 
 ##App requirements(listed formally):
 //TODO
+Bart app
 
 ##App Use cases
 List atleast 5 use cases here.
 //TODO
+Bart app
 
 ##Due 07/25:
 * Basic project Setup
@@ -44,18 +48,22 @@ List atleast 5 use cases here.
 ---
 ##Due(minor) 08/03:
 //TODO
+fixed algorithm to show rows of cards
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 08/08:
 //TODO
+finished up app. need to fix recycleview. delete extra sations. 
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due(minor) 08/10:
 //TODO
+finished making it look good.
+finished app
 ###Scrum meeting notes:
 //TODO
 

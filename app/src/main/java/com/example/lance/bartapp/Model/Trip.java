@@ -12,8 +12,6 @@ public class Trip {
     private String mDestination;
     private String mOrigTimeMin;
     private String mOrigTimeDate;
-    private String mDestTimeMin;
-    private String mDestTimeDate;
     private List<Last> Listz;
 
     public Trip(
@@ -21,15 +19,12 @@ public class Trip {
             String destination,
             String origTimeMin,
             String origTimeDate,
-            String destTimeMin,
-            String destTimeDate,
+
             List<Last> lisst) {
         mOrigin = origin;
         mDestination = destination;
         mOrigTimeMin = origTimeMin;
         mOrigTimeDate = origTimeDate;
-        mDestTimeMin = destTimeMin;
-        mDestTimeDate = destTimeDate;
         Listz = lisst;
     }
 
@@ -49,13 +44,7 @@ public class Trip {
         return mOrigTimeDate;
     }
 
-    public String getDestTimeMin() {
-        return mDestTimeMin;
-    }
 
-    public String getDestTimeDate() {
-        return mDestTimeDate;
-    }
 
     public List<Last> getL() {
         return Listz;
@@ -119,8 +108,6 @@ public class Trip {
                     mDestination,
                     mOrigTimeMin,
                     mOrigTimeDate,
-                    mDestTimeMin,
-                    mDestTimeDate,
                     mL);
         }
     }

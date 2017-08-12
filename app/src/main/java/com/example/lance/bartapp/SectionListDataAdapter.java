@@ -45,7 +45,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
         return (null != itemlist ? itemlist.size() : 0);
     }
 
-    public static class SingleItemRowHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+    public static class SingleItemRowHolder extends RecyclerView.ViewHolder{
 
         TextView Text_Name;
         TextView Text_Desc;
@@ -60,27 +60,12 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
             this.Text_Desc = (TextView) view.findViewById(R.id.desc);
             this.Story = story;
             this.contacts = arrayList;
-            view.setOnClickListener(this);
-            //view.setOnClickListener(new View.OnClickListener(this)
 
             ;
 
 
         }
 
-        @Override
-        public void onClick(View v) {
-
-            int position = getAdapterPosition();
-            Stories arraylist = this.contacts.get(position);
-            Intent intent = Single.newIntent(Story, arraylist.getID());
-            // intent.putExtra("img_id",arraylist.getText_id());
-            intent.putExtra("name",arraylist.getName());
-            intent.putExtra("desc",arraylist.getDesc());
-            intent.putExtra("inner",arraylist.getInner());
-            this.Story.startActivity(intent);
-
-        }
     }
 
 

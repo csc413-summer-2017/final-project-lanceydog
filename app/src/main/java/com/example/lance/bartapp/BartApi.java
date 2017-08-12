@@ -9,18 +9,14 @@ import android.util.Log;
 import com.example.lance.bartapp.Model.Last;
 import com.example.lance.bartapp.Model.Plan;
 import com.example.lance.bartapp.Model.Trip;
-
-
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
 import java.io.IOException;
 import java.io.StringReader;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -95,9 +91,7 @@ public class BartApi {
                     .setOrigin(tripNodeMap.getNamedItem("origin").getNodeValue())
                     .setDestination(tripNodeMap.getNamedItem("destination").getNodeValue())
                     .setOrigTimeMin(tripNodeMap.getNamedItem("origTimeMin").getNodeValue())
-                    .setOrigTimeDate(tripNodeMap.getNamedItem("origTimeDate").getNodeValue())
-                    .setDestTimeMin(tripNodeMap.getNamedItem("destTimeMin").getNodeValue())
-                    .setDestTimeDate(tripNodeMap.getNamedItem("destTimeDate").getNodeValue());
+                    .setOrigTimeDate(tripNodeMap.getNamedItem("origTimeDate").getNodeValue());
             for (int i = 0; i < tripNode.getChildNodes().getLength(); i++) {
                 tripBuilder.addL(getLat(tripNode.getChildNodes().item(i)));
             }
@@ -112,15 +106,8 @@ public class BartApi {
             NamedNodeMap NodeMap = lnode.getAttributes();
             leg = new Last.Builder()
                     .setTransferCode(NodeMap.getNamedItem("transfercode").getNodeValue())
-                    .setOrigin(NodeMap.getNamedItem("origin").getNodeValue())
-                    .setDestination(NodeMap.getNamedItem("destination").getNodeValue())
                     .setOrigTimeMin(NodeMap.getNamedItem("origTimeMin").getNodeValue())
-                    .setOrigTimeDate(NodeMap.getNamedItem("origTimeDate").getNodeValue())
-                    .setDestTimeMin(NodeMap.getNamedItem("destTimeMin").getNodeValue())
-                    .setDestTimeDate(NodeMap.getNamedItem("destTimeDate").getNodeValue())
                     .setLine(NodeMap.getNamedItem("line").getNodeValue())
-                    .setTrainHeadStation(NodeMap.getNamedItem("trainHeadStation").getNodeValue())
-                    .setTrainIdx(NodeMap.getNamedItem("trainIdx").getNodeValue())
                     .build();
         }
         return leg;

@@ -9,11 +9,14 @@
     >
 
     <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:elevation="5dp"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="4dp"
+        android:id="@+id/card"
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="-5dp"
+        android:elevation="1dp"
+        app:cardBackgroundColor="@color/cardview_shadow_end_color"
+        app:cardElevation="5dp"
         app:cardMaxElevation="@dimen/cardview_compat_inset_shadow"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
@@ -26,17 +29,6 @@
             android:layout_height="match_parent"
             android:padding="8dp">
 
-            <ImageView
-                android:id="@+id/flag"
-                android:layout_width="175dp"
-                android:layout_height="150dp"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginBottom="18dp"
-
-                android:layout_marginEnd="12dp"
-                android:layout_marginLeft="8dp"
-                android:scaleType="fitXY" />
 
             <TextView
                 android:id="@+id/name"
@@ -44,24 +36,30 @@
                 android:layout_height="wrap_content"
 
 
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/mob"
+                android:layout_marginBottom="11dp"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
                 android:text="stuff"
-                android:textColor="#000000"
-
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginStart="144dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/desc" />
 
             <TextView
                 android:id="@+id/desc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/mob"
+                android:layout_centerHorizontal="true"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
                 android:gravity="center"
                 android:text="stuff"
-                android:textColor="#000000"
-                android:textSize="12dp"
-                android:layout_below="@+id/name" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/mob"

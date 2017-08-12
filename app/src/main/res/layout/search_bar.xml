@@ -7,18 +7,19 @@
 
     <AutoCompleteTextView
         android:id="@+id/edt"
-        android:imeOptions="actionSearch"
-        android:layout_width="50dp"
+        android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:imeOptions="actionSearch"
         android:inputType="textAutoComplete|textAutoCorrect"
-        android:textColor="#FFFFFF" >
+        android:textColor="#000000"
+
+        >
+
 
         <requestFocus />
 
     </AutoCompleteTextView>
-
-
 
 
 </LinearLayout>

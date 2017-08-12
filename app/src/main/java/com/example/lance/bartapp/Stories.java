@@ -1,5 +1,7 @@
 package com.example.lance.bartapp;
 
+import com.example.lance.bartapp.Model.Last;
+
 import java.util.ArrayList;
 import java.util.UUID;
 
@@ -8,21 +10,18 @@ import java.util.UUID;
  */
 
 public class Stories {
-    private UUID mID;
     private String name;
-    //private int text_id;
     private String text_desc;
     private String text_inner;
     private ArrayList<Stories> allItems;
 
 
+
     public Stories(String name, String desc, String inner){
-        mID = UUID.randomUUID();
         this.setName(name);
-        //this.setText_id(text_id);
         this.setDesc(desc);
         this.setInner(inner);
-        this.allItems = allItems;
+
 
 
 
@@ -30,7 +29,6 @@ public class Stories {
 
     }
 
-    public UUID getID() {return mID;}
 
     public String getName() {
         return name;
